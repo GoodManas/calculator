@@ -1,0 +1,26 @@
+body {
+height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+.calc{
+    background-color: #333;
+    width: 250px;
+    height: 360px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.bth{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    transition: 0.7s all;
+    opacity: 0.7;
+    font-weight: 700;
+}
+.btn:hover{
+    width: 162px;
+}
