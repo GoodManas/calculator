@@ -1,22 +1,26 @@
-var d 
-var result 
+
+var d ;
 
 function ab(){
 
 var a = parseInt(document.getElementById("in_a").value)
 var b = parseInt(document.getElementById("in_b").value)
+var result 
 
-var d = parseInt(document.getElementById("in_d").value) 
 switch (d){
+
     case '+':
     result = a + b;
-    break;   
+    break; 
+
     case '-':
     result = a - b;
-    break;   
+    break;  
+
     case '*':
     result = a * b;
-    break;   
+    break; 
+
     case '/':
     result = a / b;
     break;   
